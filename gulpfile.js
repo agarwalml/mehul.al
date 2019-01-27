@@ -7,6 +7,7 @@ const htmlmin       = require('gulp-htmlmin');
 const stylus        = require('gulp-stylus');
 const webserver     = require('gulp-webserver');
 const concat        = require('gulp-concat');
+const merge 		= require('merge-stream');
 
 gulp.task('pug', () => {
     return gulp.src('src/pug/*.pug')
@@ -37,6 +38,17 @@ gulp.task('js', () => {
         .pipe(gulp.dest('dist/assets/js'));
 });
 
+gulp.task('binaries', () => {
+	const paths = {
+		'src/img/*': 'dist/assets/img',
+		'src/fonts/*': 'dist/assets/fonts'
+	};
+
+	return merge(Object.entries(paths).map(([from, to]) =>
+		gulp.src(from).pipe(gulp.dest(to))
+	));
+});
+
 gulp.task('clean', () => {
     return del([
         'dist/assets/css/*',
@@ -55,13 +67,13 @@ gulp.task('webserver', () => {
 gulp.task('watch', () => {
     gulp.watch('src/pug/**/*.pug', gulp.parallel('pug'));
     gulp.watch('src/styl/**/*.styl', gulp.series('clean', 'styl'));
-    gulp.watch('src/js/*.js', gulp.series('clean', 'js'));
+	gulp.watch('src/js/*.js', gulp.series('clean', 'js'));
 });
 
 gulp.task('build', gulp.series(
     'clean',
     gulp.parallel(
-        'pug', 'styl', 'js'
+        'pug', 'styl', 'js', 'binaries'
     )
 ));
 
