@@ -1,8 +1,9 @@
 @require "imports/base"
 
 .container
-	width 95%
-	max-width 800px
+	width 90%
+	max-width 850px
+	margin 0 auto
 
 	section
 		margin 5% 0
@@ -14,8 +15,4 @@
 			font-weight 100
 
 	@import "imports/navbar"
-
-	#about
-		@import "imports/sections/about"
-	#experience
-		@import "imports/sections/experience"
+	@import "imports/sections/*"
