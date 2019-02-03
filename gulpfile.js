@@ -40,7 +40,7 @@ gulp.task('js', () => {
 
 gulp.task('binaries', () => {
 	const paths = {
-		'src/img/*': 'dist/assets/img',
+		'src/img/**/*': 'dist/assets/img',
 		'src/fonts/*': 'dist/assets/fonts',
 		'src/docs/*': 'dist/assets/docs'
 	};
@@ -67,8 +67,8 @@ gulp.task('webserver', () => {
 
 gulp.task('watch', () => {
     gulp.watch('src/pug/**/*.pug', gulp.parallel('pug'));
-    gulp.watch('src/styl/**/*.styl', gulp.series('clean', 'styl'));
-	gulp.watch('src/js/*.js', gulp.series('clean', 'js'));
+    gulp.watch('src/styl/**/*.styl', gulp.series('styl'));
+	gulp.watch('src/js/*.js', gulp.series('js'));
 });
 
 gulp.task('build', gulp.series(
