@@ -41,7 +41,8 @@ gulp.task('js', () => {
 gulp.task('binaries', () => {
 	const paths = {
 		'src/img/*': 'dist/assets/img',
-		'src/fonts/*': 'dist/assets/fonts'
+		'src/fonts/*': 'dist/assets/fonts',
+		'src/docs/*': 'dist/assets/docs'
 	};
 
 	return merge(Object.entries(paths).map(([from, to]) =>
