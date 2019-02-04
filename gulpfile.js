@@ -1,13 +1,16 @@
+const autoprefixer = require('autoprefixer');
+const babel = require('gulp-babel');
+const concat = require('gulp-concat');
+const cssnano = require('cssnano');
 const del = require('del');
 const gulp = require('gulp');
-const babel = require('gulp-babel');
-const uglify = require('gulp-uglify-es').default;
-const pug = require('gulp-pug');
 const htmlmin = require('gulp-htmlmin');
-const stylus = require('gulp-stylus');
-const webserver = require('gulp-webserver');
-const concat = require('gulp-concat');
 const merge = require('merge-stream');
+const postcss = require('gulp-postcss');
+const pug = require('gulp-pug');
+const stylus = require('gulp-stylus');
+const uglify = require('gulp-uglify-es').default;
+const webserver = require('gulp-webserver');
 
 gulp.task('pug', () => {
 	return gulp.src('src/pug/*.pug')
@@ -22,8 +25,13 @@ gulp.task('pug', () => {
 });
 
 gulp.task('styl', () => {
+	const plugins = [
+		autoprefixer(),
+		cssnano()
+	];
 	return gulp.src('src/styl/index.styl')
 		.pipe(stylus({compress: true}))
+		.pipe(postcss(plugins))
 		.pipe(gulp.dest('dist/assets/css'));
 });
 
