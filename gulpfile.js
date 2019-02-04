@@ -7,7 +7,7 @@ const htmlmin = require('gulp-htmlmin');
 const stylus = require('gulp-stylus');
 const webserver = require('gulp-webserver');
 const concat = require('gulp-concat');
-const merge 		= require('merge-stream');
+const merge = require('merge-stream');
 
 gulp.task('pug', () => {
 	return gulp.src('src/pug/*.pug')
