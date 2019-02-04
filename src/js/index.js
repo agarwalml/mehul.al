@@ -1,6 +1,6 @@
 // Resize Design boxes to same height
 
-function waitForLoad(element, callback) {
+const waitForLoad = (element, callback) => {
 	let allImgsLength = 0;
 	let allImgsLoaded = 0;
 	const allImgs = [];
@@ -47,9 +47,9 @@ function waitForLoad(element, callback) {
 
 		image.src = img.src;
 	});
-}
+};
 
-function changeHeight() {
+const changeHeight = () => {
 	const elements = document.querySelectorAll('.design-card');
 
 	const elementHeights = Array.prototype.map.call(elements, el => {
@@ -61,15 +61,15 @@ function changeHeight() {
 	Array.prototype.forEach.call(elements, el => {
 		el.style.height = maxHeight + 'px';
 	});
-}
+};
 
 waitForLoad(document, changeHeight);
 
 const navbarLinks = document.querySelectorAll('.navbar a.hashlink');
-for (let i = 0; i < navbarLinks.length; i++) {
-	navbarLinks[i].addEventListener('click', e => {
+for (const link of navbarLinks) {
+	link.addEventListener('click', e => {
 		e.preventDefault();
-		window.location.hash = '#' + navbarLinks[i].href.split('#')[1];
+		window.location.hash = '#' + link.href.split('#')[1];
 		window.scrollBy(0, -0.1 * Number(window.innerHeight));
 	});
 }
