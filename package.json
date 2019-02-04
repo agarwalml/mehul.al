@@ -58,5 +58,13 @@
         "git add"
       ]
     }
+  },
+  "xo": {
+    "overrides": [
+      {
+        "files": "src/js/**/*",
+        "env": ["browser"]
+      }
+    ]
   }
 }
