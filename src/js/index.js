@@ -69,7 +69,9 @@ const navbarLinks = document.querySelectorAll('.navbar a.hashlink');
 for (const link of navbarLinks) {
 	link.addEventListener('click', e => {
 		e.preventDefault();
-		window.location.hash = '#' + link.href.split('#')[1];
-		window.scrollBy(0, -0.1 * Number(window.innerHeight));
+		if (window.location.hash.split('#')[1] !== link.hash.split('#')[1]) {
+			window.location.hash = '#' + link.hash.split('#')[1];
+			window.scrollBy(0, -0.1 * Number(window.innerHeight));
+		}
 	});
 }
