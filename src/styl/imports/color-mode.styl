@@ -19,7 +19,11 @@ lightenByN(hex, n)
 	background alpha($accent, 0.35)
 
 *
-	transition: 0.3s all ease-out
+	transition: color 0.3s ease-out,
+				border-color 0.3s ease-out,
+				border-top-color 0.3s ease-out,
+				background 0.3s ease-out,
+				fill 0.3s ease-out
 
 body.light
 	background $light--base
