@@ -1,0 +1,172 @@
+$accent = #2EC57D
+
+// Light mode
+$light--base = #ffffff
+$light--border = #e6e6e6
+$light--text = #000000
+// Dark mode
+$dark--base = #03001f
+$dark--border = #222222
+$dark--text = #ffffff
+
+darkenByN(hex, n)
+	darken(hex, n*20/3)
+
+lightenByN(hex, n)
+	lighten(hex, n*20/3)
+
+::selection
+	background alpha($accent, 0.35)
+
+*
+	transition: 0.3s all ease-out
+
+body.light
+	background $light--base
+
+	.navbar
+		border-top-color $accent
+		background $light--base
+
+		.links a
+			color lightenByN($light--text, 6)
+			&:hover
+				color $light--text
+
+	section
+		> h1
+			color $light--text
+
+		.card, .card img
+			border-color $light--border !important
+
+	#about
+		.info
+			h1
+				color $accent
+			p
+				color lightenByN($light--text, 3)
+
+	#contact
+		a
+			color lightenByN($light--text, 5)
+			&:hover
+				color $accent
+
+		svg path
+			fill $light--text
+
+	#design
+
+		.card
+			h1
+				color lightenByN($light--text, 3)
+			p
+				color lightenByN($light--text, 4)
+			a
+				color lightenByN($light--text, 3)
+
+	#experience
+		.card
+			.header
+				.left-text
+					h1
+						color lightenByN($light--text, 6)
+					h2
+						color $accent
+				.right-text p
+					color lightenByN($light--text, 7)
+
+			.main
+				border-top-color darkenByN($light--base, 1)
+				color lightenByN($light--text, 3)
+
+	#projects
+		.card
+			.top
+				h1
+					color lightenByN($light--text, 3)
+				p
+					color lightenByN($light--text, 4)
+
+			.bottom .tag
+				color $accent
+				border-color $accent
+				&:hover
+					color $light--base
+					background $accent
+
+body.dark
+	background: $dark--base
+
+	.navbar
+		border-top-color $accent
+		background $dark--base
+
+		.links a
+			color darkenByN($dark--text, 6)
+			&:hover
+				color $dark--text
+
+	section
+		> h1
+			color $dark--text
+
+		.card, .card img
+			border-color $dark--border !important
+
+	#about
+		.info
+			h1
+				color $accent
+			p
+				color darkenByN($dark--text, 3)
+
+	#contact
+		a
+			color darkenByN($dark--text, 5)
+			&:hover
+				color $accent
+
+		svg path
+			fill $dark--text
+
+	#design
+
+		.card
+			h1
+				color darkenByN($dark--text, 3)
+			p
+				color darkenByN($dark--text, 4)
+			a
+				color darkenByN($dark--text, 3)
+
+	#experience
+		.card
+			.header
+				.left-text
+					h1
+						color darkenByN($dark--text, 6)
+					h2
+						color $accent
+				.right-text p
+					color darkenByN($dark--text, 7)
+
+			.main
+				border-top-color darkenByN($dark--base, 1)
+				color darkenByN($dark--text, 3)
+
+	#projects
+		.card
+			.top
+				h1
+					color darkenByN($dark--text, 3)
+				p
+					color darkenByN($dark--text, 4)
+
+			.bottom .tag
+				color $accent
+				border-color $accent
+				&:hover
+					color $dark--base
+					background $accent

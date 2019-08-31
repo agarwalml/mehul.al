@@ -75,3 +75,18 @@ for (const link of navbarLinks) {
 		}
 	});
 }
+
+// Color mode toggle
+
+const colorToggleButton = document.querySelector('.navbar button');
+const colorToggleButtonImg = colorToggleButton.querySelector('img');
+colorToggleButton.addEventListener('click', () => {
+	const {body} = document;
+	// Dark => 0, light => 1
+	const currentMode = body.classList.contains('light');
+
+	body.classList.toggle('dark');
+	body.classList.toggle('light');
+
+	colorToggleButtonImg.src = `/assets/img/${currentMode ? 'sun' : 'moon'}.svg`;
+});
