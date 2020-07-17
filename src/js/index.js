@@ -80,6 +80,9 @@ for (const link of navbarLinks) {
 
 const colorToggleButton = document.querySelector('.navbar button');
 const colorToggleButtonImg = colorToggleButton.querySelector('img');
+const gameboyToggle = document.querySelector('.gameboy img');
+const logoToggle = document.querySelector('.navbar a img');
+
 colorToggleButton.addEventListener('click', () => {
 	const {body} = document;
 	// Dark => 0, light => 1
@@ -89,4 +92,7 @@ colorToggleButton.addEventListener('click', () => {
 	body.classList.toggle('light');
 
 	colorToggleButtonImg.src = `/assets/img/${currentMode ? 'sun' : 'moon'}.svg`;
+	gameboyToggle.src = `/assets/img/${currentMode ? '3ds_light' : '3ds_dark'}.png`;
+	oggle.src = `/assets/img/${currentMode ? 'ml_logo_light' : 'ml_logo_dark'}.svg`;
+
 });
