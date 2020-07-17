@@ -92,7 +92,7 @@ colorToggleButton.addEventListener('click', () => {
 	body.classList.toggle('light');
 
 	colorToggleButtonImg.src = `/assets/img/${currentMode ? 'sun' : 'moon'}.svg`;
-	gameboyToggle.src = `/assets/img/${currentMode ? '3ds_light' : '3ds_dark'}.png`;
-	oggle.src = `/assets/img/${currentMode ? 'ml_logo_light' : 'ml_logo_dark'}.svg`;
+	gameboyToggle.src = `/assets/img/${currentMode ? '3ds_dark' : '3ds_light'}.png`;
+	logoToggle.src = `/assets/img/${currentMode ? 'ml_logo_dark' : 'ml_logo_light'}.svg`;
 
 });
