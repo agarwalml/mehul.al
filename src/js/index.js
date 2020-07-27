@@ -97,7 +97,7 @@ colorToggleButton.addEventListener('click', () => {
 
 });
 
-const links = document.querySelectorAll('#about a');
+const links = document.querySelectorAll('a');
 
 links.forEach(link => link.addEventListener('mouseenter', shootLines));
 
