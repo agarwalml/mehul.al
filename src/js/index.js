@@ -52,14 +52,14 @@ const waitForLoad = (element, callback) => {
 const changeHeight = () => {
 	const elements = document.querySelectorAll('.design-card');
 
-	const elementHeights = Array.prototype.map.call(elements, el => {
-		return el.offsetHeight;
+	const elementHeights = Array.prototype.map.call(elements, element => {
+		return element.offsetHeight;
 	});
 
 	const maxHeight = Math.max.apply(null, elementHeights);
 
-	Array.prototype.forEach.call(elements, el => {
-		el.style.height = maxHeight + 'px';
+	Array.prototype.forEach.call(elements, element => {
+		element.style.height = maxHeight + 'px';
 	});
 };
 
@@ -67,8 +67,8 @@ waitForLoad(document, changeHeight);
 
 const navbarLinks = document.querySelectorAll('.navbar a.hashlink');
 for (const link of navbarLinks) {
-	link.addEventListener('click', e => {
-		e.preventDefault();
+	link.addEventListener('click', event => {
+		event.preventDefault();
 		if (window.location.hash.split('#')[1] !== link.hash.split('#')[1]) {
 			window.location.hash = '#' + link.hash.split('#')[1];
 			window.scrollBy(0, -0.1 * Number(window.innerHeight));
@@ -125,13 +125,13 @@ function shootLines() {
 		children: {
 			shape: shapes[chosenS],
 			radius: 10,
-			scale: {0.8: 1},
+			scale: {1: 1},
 			fill: 'none',
 			points: 7,
 			stroke: colors[chosenC],
 			strokeDasharray: '100%',
 			strokeDashoffset: {'-100%': '100%'},
-			duration: 350,
+			duration: 450,
 			delay: 100,
 			easing: 'quad.out',
 			isShowEnd: false

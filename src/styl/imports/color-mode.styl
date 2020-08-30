@@ -51,7 +51,44 @@ body.light
 				color $accent_light
 			p
 				color lightenByN($light--text, 3)
-			
+
+			a
+				display inline-block
+				position relative
+				color #333333
+				text-decoration none
+				padding 0.2em 0.05em
+				border-bottom 2px solid #333333
+
+
+			a:hover
+				color #efefef
+
+
+			a:after
+				content ''
+				display block
+				position absolute
+				top 100%
+				right 0
+				bottom 0
+				left 0
+				background #333333
+				z-index -1
+				transition all 0.1s cubic-bezier(0.000, 0.590, 1.000, 0.260)
+
+
+			a:hover:after
+				content ''
+				display block
+				position absolute
+				top 0
+				right 0
+				bottom 0
+				left 0
+				background #333333
+				z-index -1
+
 
 	#contact
 		a
@@ -96,11 +133,12 @@ body.light
 					color lightenByN($light--text, 4)
 
 			.bottom .tag
-				color $accent_light
-				border-color $accent_light
+				color $dark--base
+				border-color $dark--base
 				&:hover
 					color $light--base
 					background $accent_light
+					border-color $accent_light
 
 body.dark
 	::selection
@@ -130,6 +168,43 @@ body.dark
 				color $accent_dark
 			p
 				color darkenByN($dark--text, 3)
+
+			a
+				display inline-block
+				position relative
+				color #efefef
+				text-decoration none
+				padding 0.2em 0.05em
+				border-bottom 2px solid #efefef
+
+
+			a:hover
+				color #333333
+
+
+			a:after
+				content ''
+				display block
+				position absolute
+				top 100%
+				right 0
+				bottom 0
+				left 0
+				background #efefef
+				z-index -1
+				transition all 0.1s cubic-bezier(0.000, 0.590, 1.000, 0.260)
+
+
+			a:hover:after
+				content ''
+				display block
+				position absolute
+				top 0
+				right 0
+				bottom 0
+				left 0
+				background #efefef
+				z-index -1
 
 	#contact
 		a
@@ -169,13 +244,14 @@ body.dark
 		.card
 			.top
 				h1
-					color darkenByN($dark--text, 3)
+					color lightenByN($light--text, 3)
 				p
-					color darkenByN($dark--text, 4)
+					color lightenByN($light--text, 4)
 
 			.bottom .tag
-				color $accent_dark
-				border-color $accent_dark
+				color $dark--base
+				border-color $dark--base
 				&:hover
 					color $dark--base
 					background $accent_dark
+					border-color $accent_dark
