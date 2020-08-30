@@ -91,13 +91,9 @@ body.light
 
 
 	#contact
-		a
-			color lightenByN($light--text, 5)
-			&:hover
-				color $accent
-
-		svg path
-			fill $light--text
+		.links
+			a.link
+				filter: saturate(0)
 
 	#design
 
@@ -139,6 +135,11 @@ body.light
 					color $light--base
 					background $accent_light
 					border-color $accent_light
+	#footer
+		p
+			color lightenByN($light--text, 3)
+		a
+			color $accent_light
 
 body.dark
 	::selection
@@ -207,13 +208,9 @@ body.dark
 				z-index -1
 
 	#contact
-		a
-			color darkenByN($dark--text, 5)
-			&:hover
-				color $accent_dark
-
-		svg path
-			fill $dark--text
+		.links
+			a.link
+				filter: saturate(0) invert()
 
 	#design
 
@@ -255,3 +252,8 @@ body.dark
 					color $dark--base
 					background $accent_dark
 					border-color $accent_dark
+	#footer
+		p
+			color darkenByN($dark--text, 3)
+		a
+			color $accent_dark
