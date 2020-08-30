@@ -6,12 +6,19 @@
 		align-items flex-start
 
 		.gameboy
-			width 85%
+			width: 40%
 			left: -20px
+			position: relative
 
 			img
-				width 100%
+				width 130%
 				height auto
+				position absolute
+				left -25%
+
+				@media only screen and (max-width: 600px)
+					position: relative
+					left: -10%
 
 		.info
 			width 65%

@@ -1,25 +1,25 @@
 #contact
+	border-top 2px solid #777
+	margin-bottom: 0
 
-	a
-		font-size 1em
-		color #555
+	.links
+		padding: 5vh 0;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		flex-wrap: wrap;
 
-		&:hover
-			color $light--accent
+		a.link
+			display: flex;
+			text-decoration: none;
+			align-items: center;
+			margin: 20px 10px;
+			filter: saturate(0)
+			transition: 0.1s all ease-in-out
 
-		&.link
-			display flex
-			margin 5px 0
-			text-decoration underline
+			img
+				height: 25px;
+				margin-right: 10px;
 
-			span
-				display flex
-				padding-right 10px
-
-				svg
-					display inline-block
-					width 1.3em
-					height 1.3em
-
-			&.first
-				margin-top 30px
+			&:hover
+				filter: none
