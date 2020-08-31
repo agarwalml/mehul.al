@@ -140,3 +140,9 @@ function shootLines() {
 
 	burst.play();
 }
+
+// Navigate to top
+const topButton = document.querySelector('.top-button button')
+topButton.addEventListener('click', () => {
+	window.scrollTo({top: 0, behavior: 'smooth'});
+})
