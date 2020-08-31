@@ -1,25 +1,51 @@
 #contact
+	margin-bottom: 0
 
-	a
-		font-size 1em
-		color #555
+	.top-button
+		display: flex
+		justify-content: center
+		align-items: center
 
-		&:hover
-			color $light--accent
+		&::after, &::before
+			content: ''
+			height: 3px
+			background: #777
+			flex: 1
 
-		&.link
-			display flex
-			margin 5px 0
-			text-decoration underline
+		button
+			background: none
+			border: none
+			cursor: pointer
+			margin: 0 50px
 
-			span
-				display flex
-				padding-right 10px
+			&:hover
+				#c1
+					fill: #fff
+					stroke: #333
+				#c2
+					fill: #333
+				#arrow
+					stroke: #fff
 
-				svg
-					display inline-block
-					width 1.3em
-					height 1.3em
+	.links
+		padding: 5vh 0;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		flex-wrap: wrap;
+		margin 0 -10px
 
-			&.first
-				margin-top 30px
+		a.link
+			display: flex;
+			text-decoration: none;
+			align-items: center;
+			margin: 20px 10px;
+			filter: saturate(0)
+			transition: 0.1s all ease-in-out
+
+			img
+				height: 25px;
+				margin-right: 10px;
+
+			&:hover
+				filter: none

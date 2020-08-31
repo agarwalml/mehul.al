@@ -6,7 +6,8 @@
 		align-items flex-start
 
 		.gameboy
-			width 35%
+			width: 70%
+			left: -20px
 
 			img
 				width 100%
@@ -14,7 +15,7 @@
 
 		.info
 			width 65%
-			padding 0 0 0 20px
+			padding 0
 
 			h1
 				font-family "Unique"
@@ -24,14 +25,16 @@
 			p
 				font-size 1.2rem
 				line-height 1.5
-				padding 20px 0
+				padding 20px 0 50px
+
 
 		@media only screen and (max-width:600px)
 			flex-direction column
 			align-items center
 
 			.gameboy
-				width 70%
+				width 100%
+				left: 0
 
 			.info
 				width 100%
