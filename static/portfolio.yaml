@@ -1,0 +1,147 @@
+meta:
+  name: Mehul Agarwal
+  title: Researcher · Entrepreneur
+  logo:
+    path: /logos/mehul-light.svg
+    alt: Mehul's logo
+  graphic:
+    path: /images/3ds-light.png
+    alt: Isometric design of a the Nintendo 3DS game console
+  about:
+    - Hello! Welcome to my corner of the internet.
+    - I'm Mehul Agarwal, a senior studying Computer Science at Carnegie Mellon University (with a concentration in Machine Learning). I'm also the co-founder of Retcon, a decentralized platform for creating and trading videogame assets.
+    - My research interests fall under the umbrellas of Computer Vision, NLP and blockchain. When I'm not stumped with homework, I try to find the nerdiest ways to prove that I'm cool. Some of my exploits include co-founding the Facebook group [Zoom Memes for Self Quaranteens](https://www.facebook.com/groups/zoommemes/) during the pandemic, which now has 950,000+ members.
+
+navigation:
+  - name: Home
+    link: /
+  - name: Projects
+    link: /projects
+  - name: Experience
+    link: /experience
+  - name: Contact
+    link: /#contact
+  - name: Resume
+    link: https://drive.google.com/file/d/1azB-s6mqosO-k5x1-fNWtHf3TfYv8X7R/view
+    external: true
+
+projects:
+  - name: Retcon
+    subtitle: Decentralized ecosystem for creating & trading in-game assets using ML
+    description:
+      - A secondary marketplace to create and buy/trade/sell video game assets securely. It employs generative ML diffusion models to enable creation and content moderation of 3-D assets that can be deployed in game
+    logo: /logos/retcon.svg
+    links:
+      - name: Product demo
+        link: https://www.youtube.com/watch?v=5AoQvXRnwKE
+      - name: Pitch deck
+        link: https://drive.google.com/file/d/1WeQganQsDflnNWierAyLICq8o1nDkoSp/view?usp=sharing
+
+  - name: VISTA
+    subtitle: VIrtual STereo based Augmentation for depth estimation in automated driving (NeurIPS 2022 Autonomous Driving)
+    description:
+      - "_Partners: Bin Cheng, Kshitiz Bansal, Professor Dinesh Bharadia & Gaurav Bansal (UC San Diego & Blue River Technology)_"
+      - Improves the State-of-the-Art monocular depth estimation by 8% in automated driving using a novel Virtual Stereo camera approach.
+      - Based on a custom simulated dataset created on CARLA mimicking the limited real life computer vision KITTI dataset.
+    logo: /logos/vista.png
+    links:
+      - name: Poster
+        link: https://drive.google.com/file/d/1UIjKiJ9l4q4mjwMtQHGN4FJANVy32QGb/view?usp=sharing
+      - name: Research paper
+        link: https://drive.google.com/file/d/1z5Zu-2qbzrEVroGF9jRFKt6Je3zFNPNk/view?usp=sharing
+
+  - name: Locastic
+    subtitle: Online Platform for locally-sourced unique artisanal products
+    description:
+      - An online marketplace for local/home-based businesses to sell unique customizable home-made items.
+      - Built as a React web app with a MongoDB backend
+    logo: /logos/mehul-light.svg
+    links:
+      - name: Pitch deck
+        link: https://docs.google.com/presentation/d/1OIrKt1fvXNpbVDh56STyhKmQTXTvEwrxGIS-DHvc1Wo
+
+  - name: Realistic Colorization of Portrait Line Art
+    description:
+      - "_Partner: Julia Shieuh, Georgia Tech_"
+      - "Class project for 10-745: Scalability in Machine Learning at Carnegie Mellon."
+      - Explores line-art colorization of human faces using Generative Adversarial Networks. Based on a pix2pix model on top of a custom dataset constructed using different lineart generators
+    logo: /logos/portrait_line_art.png
+    links:
+      - name: Website
+        link: https://locastic.herokuapp.com/
+      - name: Paper
+        link: https://drive.google.com/file/d/1kqvZl795Pjikc-NG1sp4Oqox6KQJIGE7/view?usp=sharing
+
+  - name: GAN-based Unsupervised Clickbait Style Transfer
+    description:
+      - "_Partner: Sayani Kundu, Carnegie Mellon University_"
+      - Used CycleGAN based models, in particular StyleTransformer, to convert between factual news titles (non-clickbait) and viral hyperbolic and sensational headlines (clickbait)
+      - We incorporate semantic and syntactic features of clickbaity text into the existing model to aid in transforming the style of a text while preserving legibility and meaning.
+    logo: /logos/mehul-light.svg
+    links:
+      - name: Paper
+        link: https://drive.google.com/file/d/1or18VZYLPPuy2lCnEvraG_KF9yqzamKA/view?usp=sharing
+
+experience:
+  - name: Blue River
+    link: https://bluerivertechnology.com/
+    dates: Summer 2022
+    role: CV/ML Intern
+    location: Sunnyvale, CA
+    responsibilities:
+      - Collecting novel "interesting" data to train Semantic Segmentation & Depth Models for a Self Driving Tractor
+      - Running an Active Learning Experiment and come up with metrics to measure performance of models and methods of data capture
+
+  - name: Enya
+    link: https://www.enya.ai/
+    dates: Summer & Fall 2021
+    role: Research Intern
+    location: Remote
+    responsibilities:
+      - Constructing novel Extensible Smart Contracts & non-fungible tokens (NFTs) on Solidity, allowing off-chain computation and non-deterministic code to be put into use in blockchains
+      - "Contributing to the creation of Boba: a Layer-2 Ethereum Scaling Solution (using Optimistic Rollups) reducing the cost and increasing the efficiency of transactions on Ethereum"
+      - Studying and creating Automated Market Makers (AMMs), reducing the impermanent loss by comparing token prices on and off- chain and changing the fees earned by liquidity providers.
+
+  - name: GAN Studio
+    link: https://ganstudio.com/
+    dates: Dec 2020 - Feb 2021
+    role: Intern
+    location: New Delhi, India
+    responsibilities:
+      - Exploring Natural Language Processing (NLP) & Computer Vision research problems of prosody transfer, voice cloning, lip syncing to produce a Generative AI voice dubbing solution
+      - Researching State-of-the-Art Unsupervised Speech Decomposition & Generation algorithms like SpeechSplit and identifying applications of disentangling and transforming multiple speakers' content, timbre, rhythm and pitch
+
+  - name: "15-213/18-213: Introduction to Computer Systems"
+    link: https://www.cs.cmu.edu/~213/
+    dates: Spring 2021, Fall 2021, Spring 2022
+    role: Lead Teaching Assistant
+    location: Pittsburgh, PA
+    responsibilities:
+      - Creating exams, recitations and written assignments covering topics in Computer Systems
+      - Teaching concepts such as machine-level code, optimizing compilers, computer arithmetic and memory organization & management, networking, and concurrent computation.
+
+  - name: Introduction to Android Development (StuCo)
+    link: https://www.coursicle.com/cmu/courses/STU/98291/
+    dates: Fall 2021
+    role: Head Teacher
+    location: Pittsburgh, PA
+    responsibilities:
+      - Teaching CMU undergraduate students app-development in Android
+      - Creating course material to introduce students to Firebase, building a chat service, using SDKs such as Google Maps, etc.
+
+contact:
+  - name: Email
+    link: "mailto:mail@mehul.al"
+    alias: mail@mehul.al
+  - name: Behance
+    link: https://www.behance.net/agarwalml
+    alias: "@agarwalml"
+  - name: Instagram
+    link: https://www.instagram.com/totallynotareptile
+    alias: "@totallynotareptile"
+  - name: Facebook
+    link: https://www.facebook.com/agarwalml
+    alias: "@agarwalml"
+  - name: GitHub
+    link: https://github.com/agarwalml
+    alias: "@agarwalml"

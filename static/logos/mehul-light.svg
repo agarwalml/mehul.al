@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 436 502">
+  <g data-name="Layer 2">
+    <path fill="none" d="M0 0v376l218 126V125L0 0z"/>
+    <path fill="#c1f6e5" d="M218 125v377l218-126V0L218 125z"/>
+    <path fill="none" d="M436 376V0L218 125"/>
+    <path fill="#64e9bd" d="M218 251V125L436 0v376l-109 63V188l-109 63z"/>
+    <path fill="#337195" d="M218 125v377L0 376V0l218 125z"/>
+    <path fill="#004e7a" d="M218 251V125L0 0v376l109 63V188l109 63z"/>
+  </g>
+  <g data-name="Layer 5">
+    <path fill="#e0fbf2" d="m218.18 300.8 109.2-61.04v199.16l-109 63-.2-201.12z"/>
+    <path fill="#99b8ca" d="m218.38 300.8-109.2-61.04.2 199.16 109 63V300.8z"/>
+  </g>
+</svg>
