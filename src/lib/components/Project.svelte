@@ -5,7 +5,8 @@
 </script>
 
 <article
-  class="grid grid-cols-6 gap-10 bg-lime-100 border border-lime-300 rounded-lg p-10"
+  class="grid grid-cols-6 gap-10 border border-lime-300 rounded-lg p-10"
+  style=“background: {project.color}”
 >
   <aside class="flex items-center">
     <img class=" max-w-full" src={project.logo} alt={project.name} />
