@@ -31,7 +31,7 @@ projects:
     description:
       - A secondary marketplace to create and buy/trade/sell video game assets securely. It employs generative ML diffusion models to enable creation and content moderation of 3-D assets that can be deployed in game
     logo: /logos/retcon.svg
-    color: A8D6C2
+    color: F2BE7A
     links:
       - name: Product demo
         link: https://www.youtube.com/watch?v=5AoQvXRnwKE
@@ -45,7 +45,7 @@ projects:
       - Improves the State-of-the-Art monocular depth estimation by 8% in automated driving using a novel Virtual Stereo camera approach.
       - Based on a custom simulated dataset created on CARLA mimicking the limited real life computer vision KITTI dataset.
     logo: /logos/vista.png
-    color: A8D6C2
+    color: 5DB4DF
     links:
       - name: Poster
         link: https://drive.google.com/file/d/1UIjKiJ9l4q4mjwMtQHGN4FJANVy32QGb/view?usp=sharing
@@ -69,7 +69,7 @@ projects:
       - "Class project for 10-745: Scalability in Machine Learning at Carnegie Mellon."
       - Explores line-art colorization of human faces using Generative Adversarial Networks. Based on a pix2pix model on top of a custom dataset constructed using different lineart generators
     logo: /logos/portrait_line_art.png
-    color: A8D6C2
+    color: D6C6B1
     links:
       - name: Website
         link: https://locastic.herokuapp.com/
