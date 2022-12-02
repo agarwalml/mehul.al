@@ -92,7 +92,7 @@ projects:
       - "_Advisors: Ramayya Krishnan (Dean of Heinz College of Information Sciences), Wang Hai, Carnegie Mellon University_"
       - The research explores a "Cap and Trade" scheme using distributed ledgers and tokenization on the blockchain.
       - It envisions "Cap and Trade" as a universal strategy to share resources in different domains among users fairly and optimally.
-    logo: /logos/mehul-light.svg
+    logo: /logos/scotty_coin.png
     color: FFD386
     links:
       - name: Paper
@@ -103,7 +103,7 @@ projects:
       - "_Independent Research on introducing a blockchain layer to Aadhaar Authentication to solve security and privacy issues_"
       - Aadhaar provides a unique biometric identity to 1.2 billion residents of India. 
       - This proposal aims to increase the integrity of Aadhaar by providing an immutable decentralized layer on top of the current architecture.
-    logo: /logos/mehul-light.svg
+    logo: /logos/aadhaar.png
     color: E96B6A
     links:
       - name: Paper
@@ -113,7 +113,7 @@ projects:
     description:
       - "_Research under NITI Aayog, the Indian govt. thinktank, and the International Innovation Corps, University of Chicago on development of Natural Language Processing (NLP) applications in 18 Indian Vernacular languages_"
       - The internal paper is being utilized to construct an Access Point Repository for Indian NLP applications for various use cases.
-    logo: /logos/mehul-light.svg
+    logo: /logos/nlp_robot.png
     color: 68ACD4
     links:
       - name: Paper
@@ -123,7 +123,7 @@ projects:
     description:
       - "_Application built and pitched as part of the Business Pitch in the The Indus Entrepreneurs (TiE) The Young Entrepreneur Program_"
       - The app helps in maintaining personal and professional targets and finding time for new and pre-existing goals customized to the user's schedule.
-    logo: /logos/mehul-light.svg
+    logo: /logos/goalkick.png
     color: 6CE5B2
     links:
       - name: Paper
