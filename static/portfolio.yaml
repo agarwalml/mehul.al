@@ -87,6 +87,50 @@ projects:
       - name: Paper
         link: https://drive.google.com/file/d/1or18VZYLPPuy2lCnEvraG_KF9yqzamKA/view?usp=sharing
 
+  - name: Resource Sharing in Networks using a blockchain-based Cap & Trade scheme
+    description:
+      - "_Advisors: Ramayya Krishnan (Dean of Heinz College of Information Sciences), Wang Hai, Carnegie Mellon University_"
+      - The research explores a "Cap and Trade" scheme using distributed ledgers and tokenization on the blockchain.
+      - It envisions "Cap and Trade" as a universal strategy to share resources in different domains among users fairly and optimally.
+    logo: /logos/mehul-light.svg
+    color: FFD386
+    links:
+      - name: Paper
+        link: https://drive.google.com/file/d/1or18VZYLPPuy2lCnEvraG_KF9yqzamKA/view?usp=sharing
+
+  - name: Decentralizing Aadhaar, India's Identity Platform, using Blockchain
+    description:
+      - "_Independent Research on introducing a blockchain layer to Aadhaar Authentication to solve security and privacy issues_"
+      - Aadhaar provides a unique biometric identity to 1.2 billion residents of India. 
+      - This proposal aims to increase the integrity of Aadhaar by providing an immutable decentralized layer on top of the current architecture.
+    logo: /logos/mehul-light.svg
+    color: E96B6A
+    links:
+      - name: Paper
+        link: https://drive.google.com/file/d/1or18VZYLPPuy2lCnEvraG_KF9yqzamKA/view?usp=sharing
+
+  - name: Natural Language Processing in the Indian Context
+    description:
+      - "_Research under NITI Aayog, the Indian govt. thinktank, and the International Innovation Corps, University of Chicago on development of Natural Language Processing (NLP) applications in 18 Indian Vernacular languages_"
+      - The internal paper is being utilized to construct an Access Point Repository for Indian NLP applications for various use cases.
+    logo: /logos/mehul-light.svg
+    color: 68ACD4
+    links:
+      - name: Paper
+        link: https://drive.google.com/file/d/1or18VZYLPPuy2lCnEvraG_KF9yqzamKA/view?usp=sharing
+
+  - name: GoalKick — A Goal Scheduling Application employing intelligence automation
+    description:
+      - "_Application built and pitched as part of the Business Pitch in the The Indus Entrepreneurs (TiE) The Young Entrepreneur Program_"
+      - The app helps in maintaining personal and professional targets and finding time for new and pre-existing goals customized to the user's schedule.
+    logo: /logos/mehul-light.svg
+    color: 6CE5B2
+    links:
+      - name: Paper
+        link: https://drive.google.com/file/d/1or18VZYLPPuy2lCnEvraG_KF9yqzamKA/view?usp=sharing
+
+
+
 experience:
   - name: Blue River
     link: https://bluerivertechnology.com/
@@ -133,17 +177,53 @@ experience:
     responsibilities:
       - Teaching CMU undergraduate students app-development in Android
       - Creating course material to introduce students to Firebase, building a chat service, using SDKs such as Google Maps, etc.
+  
+  - name: Center for Advanced Research in Imaging, Neuroscience & Genomics (CARING)
+    link: https://in.linkedin.com/showcase/caring-mi
+    dates: Summer 2020
+    role: Research Intern
+    location: New Delhi, India
+    responsibilities:
+      - Developing in-browser Text Detection to identify and remove sensitive patient information from Ultrasound and CT scans.
+      - Modifying existing EAST (Efficient and Accurate Scene Text) algorithm to create a shallower model to identify personally identifiable information (PII) using tensorflow.js, Tesseract and OpenCV.
+
+  - name: Speccasa
+    dates: 2018 - 2019
+    role: Co-founder
+    location: New Delhi, India
+    responsibilities:
+      - Developing a B2B e-commerce portal for eyeglasses
+      - Making assistive devices affordable and accessible to opticians esp. in rural areas
+
+  - name: Unique Identification Authority of India
+    link: https://uidai.gov.in
+    dates: Summer 2017
+    role: Intern
+    location: New Delhi, India
+    responsibilities:
+      - Understanding technology behind Aadhaar – India’s Biometric Identity for 1.2 billion citizens
+      - Developing modules for the Aadhaar API and integrating Aadhaar Authentication into local businesses
+
+  - name: ProjectBeta, IT Club of Sanskriti School
+    link: https://projectbeta.info/
+    dates: 2016 - 2019
+    role: Vice President
+    location: New Delhi, India
+    responsibilities:
+      - Organizing inter-school IT Symposium ‘ProjectBeta 2.0’ in August 2018
+      - Heading Design & Start-up Pitch Departments and leading teams in inter-school IT events in Graphic Designing, Webdev & Programming
+
 
 contact:
   - name: Email
-    link: "mailto:mail@mehul.al"
-    alias: mail@mehul.al
+    link: "mailto:mehula@andrew.cmu.edu"
+    alias: mehula@andrew.cmu.edu
   - name: Behance
     link: https://www.behance.net/agarwalml
     alias: "@agarwalml"
   - name: Instagram
-    link: https://www.instagram.com/totallynotareptile
-    alias: "@totallynotareptile"
+    link: https://www.instagram.com/mehul.al
+    alias: "@mehul.al"
   - name: Facebook
     link: https://www.facebook.com/agarwalml
     alias: "@agarwalml"
