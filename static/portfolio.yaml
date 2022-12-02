@@ -37,7 +37,7 @@ projects:
       - name: Product demo
         link: https://www.youtube.com/watch?v=5AoQvXRnwKE
       - name: Pitch deck
-        link: https://drive.google.com/file/d/1WeQganQsDflnNWierAyLICq8o1nDkoSp/view?usp=sharing
+        link: /links/recton_deck.pdf
 
   - name: VISTA
     subtitle: VIrtual STereo based Augmentation for depth estimation in automated driving (NeurIPS 2022 Autonomous Driving)
@@ -49,9 +49,9 @@ projects:
     color: C4C9FF
     links:
       - name: Poster
-        link: https://drive.google.com/file/d/1UIjKiJ9l4q4mjwMtQHGN4FJANVy32QGb/view?usp=sharing
+        link: /links/vista_poster.pdf
       - name: Research paper
-        link: https://drive.google.com/file/d/1z5Zu-2qbzrEVroGF9jRFKt6Je3zFNPNk/view?usp=sharing
+        link: /links/vista_paper.pdf
 
   - name: Locastic
     subtitle: Online Platform for locally-sourced unique artisanal products
@@ -62,22 +62,23 @@ projects:
     color: F5E3CD
     links:
       - name: Pitch deck
-        link: https://docs.google.com/presentation/d/1OIrKt1fvXNpbVDh56STyhKmQTXTvEwrxGIS-DHvc1Wo
+        link: /links/locastic_deck.pdf
       - name: Website
         link: https://locastic.herokuapp.com/
 
   - name: Realistic Colorization of Portrait Line Art
+    subtitle: 10-745 Scalability in Machine Learning, Carnegie Mellon University
     description:
       - "_Partner: Julia Shieuh, Georgia Tech_"
-      - "Class project for 10-745: Scalability in Machine Learning at Carnegie Mellon."
       - Explores line-art colorization of human faces using Generative Adversarial Networks. Based on a pix2pix model on top of a custom dataset constructed using different lineart generators
     logo: /logos/portrait_line_art.png
     color: D1FAE5
     links:
       - name: Paper
-        link: https://drive.google.com/file/d/1-c5GJokTIYCTMxmjUpQPJzKbdxMAR5yD/view?usp=sharing
+        link: /links/portrait_lineart_paper.pdf
 
   - name: GAN-based Unsupervised Clickbait Style Transfer
+    subtitle: 10-617 Intermediate Deep Learning, Carnegie Mellon University
     description:
       - "_Partner: Sayani Kundu, Carnegie Mellon University_"
       - Used CycleGAN based models, in particular StyleTransformer, to convert between factual news titles (non-clickbait) and viral hyperbolic and sensational headlines (clickbait)
@@ -86,49 +87,53 @@ projects:
     color: 7DD3FC
     links:
       - name: Paper
-        link: https://drive.google.com/file/d/1or18VZYLPPuy2lCnEvraG_KF9yqzamKA/view?usp=sharing
+        link: /links/clickbait_paper.pdf
 
   - name: Resource Sharing in Networks using a blockchain-based Cap & Trade scheme
+    subtitle: Heinz College of Information Sciences, Carnegie Mellon University
     description:
-      - "_Advisors: Ramayya Krishnan (Dean of Heinz College of Information Sciences), Wang Hai, Carnegie Mellon University_"
-      - The research explores a "Cap and Trade" scheme using distributed ledgers and tokenization on the blockchain.
-      - It envisions "Cap and Trade" as a universal strategy to share resources in different domains among users fairly and optimally.
+      - "_Advisors: Ramayya Krishnan (Dean of Heinz College), Wang Hai, Carnegie Mellon University_"
+      - It envisions "Cap and Trade" using a distributed ledger as a universal strategy to share resources in different domains among users fairly and optimally.
     logo: /logos/scotty_coin.png
     color: FFD386
     links:
       - name: Poster
         link: /links/scotty_poster.pdf
 
-  - name: Decentralizing Aadhaar, India's Identity Platform, using Blockchain
+  - name: Decentralizing Aadhaar, India's Identity Platform
+    subtitle: Independent Research on introducing a blockchain layer to Aadhaar Authentication
     description:
-      - "_Independent Research on introducing a blockchain layer to Aadhaar Authentication to solve security and privacy issues_"
       - Aadhaar provides a unique biometric identity to 1.2 billion residents of India. 
-      - This proposal aims to increase the integrity of Aadhaar by providing an immutable decentralized layer on top of the current architecture.
+      - This proposal aims to increase the integrity and privacy of Aadhaar by providing an immutable decentralized layer on top of the current architecture.
     logo: /logos/aadhaar.png
     color: E96B6A
     links:
+      - name: Abstract
+        link: /links/blockchain_abstract.pdf
       - name: Paper
-        link: https://drive.google.com/file/d/1or18VZYLPPuy2lCnEvraG_KF9yqzamKA/view?usp=sharing
+        link: /links/blockchain_paper.pdf
 
   - name: Natural Language Processing in the Indian Context
+    subtitle: NITI Aayog, the Indian govt. thinktank & International Innovation Corps, University of Chicago
     description:
-      - "_Research under NITI Aayog, the Indian govt. thinktank, and the International Innovation Corps, University of Chicago on development of Natural Language Processing (NLP) applications in 18 Indian Vernacular languages_"
+      - Research on the development of Natural Language Processing (NLP) applications in 18 Indian Vernacular languages
       - The internal paper is being utilized to construct an Access Point Repository for Indian NLP applications for various use cases.
     logo: /logos/nlp_robot.png
     color: 68ACD4
     links:
-      - name: Paper
-        link: https://drive.google.com/file/d/1or18VZYLPPuy2lCnEvraG_KF9yqzamKA/view?usp=sharing
+      - name: Abstract
+        link: /links/NLP_abstract.pdf
 
   - name: GoalKick — A Goal Scheduling Application employing intelligence automation
+    subtitle: The Indus Entrepreneurs (TiE) The Young Entrepreneur Program
     description:
-      - "_Application built and pitched as part of the Business Pitch in the The Indus Entrepreneurs (TiE) The Young Entrepreneur Program_"
+      - Application built and pitched as part of a program conducted at Indian Institute of Technology, Delhi
       - The app helps in maintaining personal and professional targets and finding time for new and pre-existing goals customized to the user's schedule.
     logo: /logos/goalkick.png
     color: 6CE5B2
     links:
-      - name: Paper
-        link: https://drive.google.com/file/d/1or18VZYLPPuy2lCnEvraG_KF9yqzamKA/view?usp=sharing
+      - name: Pitch Deck
+        link: /links/goalkick_deck.pdf
 
 
 
