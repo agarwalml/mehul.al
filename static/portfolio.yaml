@@ -29,9 +29,10 @@ projects:
   - name: Retcon
     subtitle: Decentralized ecosystem for creating & trading in-game assets using ML
     description:
-      - A secondary marketplace to create and buy/trade/sell video game assets securely. It employs generative ML diffusion models to enable creation and content moderation of 3-D assets that can be deployed in game
+      - A secondary marketplace to create and buy/trade/sell video game assets securely. 
+      - It employs generative ML diffusion models to enable creation and content moderation of 3-D assets that can be deployed in game
     logo: /logos/retcon.svg
-    color: F2BE7A
+    color: FED7AA
     links:
       - name: Product demo
         link: https://www.youtube.com/watch?v=5AoQvXRnwKE
