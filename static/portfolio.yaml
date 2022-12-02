@@ -45,7 +45,7 @@ projects:
       - Improves the State-of-the-Art monocular depth estimation by 8% in automated driving using a novel Virtual Stereo camera approach.
       - Based on a custom simulated dataset created on CARLA mimicking the limited real life computer vision KITTI dataset.
     logo: /logos/vista.png
-    color: 5DB4DF
+    color: E0CEFD
     links:
       - name: Poster
         link: https://drive.google.com/file/d/1UIjKiJ9l4q4mjwMtQHGN4FJANVy32QGb/view?usp=sharing
@@ -57,8 +57,8 @@ projects:
     description:
       - An online marketplace for local/home-based businesses to sell unique customizable home-made items.
       - Built as a React web app with a MongoDB backend
-    logo: /logos/mehul-light.svg
-    color: A8D6C2
+    logo: /logos/locastic.png
+    color: F0DDCA
     links:
       - name: Pitch deck
         link: https://docs.google.com/presentation/d/1OIrKt1fvXNpbVDh56STyhKmQTXTvEwrxGIS-DHvc1Wo
@@ -81,8 +81,8 @@ projects:
       - "_Partner: Sayani Kundu, Carnegie Mellon University_"
       - Used CycleGAN based models, in particular StyleTransformer, to convert between factual news titles (non-clickbait) and viral hyperbolic and sensational headlines (clickbait)
       - We incorporate semantic and syntactic features of clickbaity text into the existing model to aid in transforming the style of a text while preserving legibility and meaning.
-    logo: /logos/mehul-light.svg
-    color: A8D6C2
+    logo: /logos/clickbait.png
+    color: FDCFB2
     links:
       - name: Paper
         link: https://drive.google.com/file/d/1or18VZYLPPuy2lCnEvraG_KF9yqzamKA/view?usp=sharing
