@@ -32,7 +32,7 @@ projects:
       - A secondary marketplace to create and buy/trade/sell video game assets securely. 
       - It employs generative ML diffusion models to enable creation and content moderation of 3-D assets that can be deployed in game
     logo: /logos/retcon.svg
-    color: FED7AA
+    color: FEF3C7
     links:
       - name: Product demo
         link: https://www.youtube.com/watch?v=5AoQvXRnwKE
@@ -46,7 +46,7 @@ projects:
       - Improves the State-of-the-Art monocular depth estimation by 8% in automated driving using a novel Virtual Stereo camera approach.
       - Based on a custom simulated dataset created on CARLA mimicking the limited real life computer vision KITTI dataset.
     logo: /logos/vista.png
-    color: D8B4FE
+    color: C4C9FF
     links:
       - name: Poster
         link: https://drive.google.com/file/d/1UIjKiJ9l4q4mjwMtQHGN4FJANVy32QGb/view?usp=sharing
