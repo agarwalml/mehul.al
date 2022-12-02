@@ -45,7 +45,7 @@ projects:
       - Improves the State-of-the-Art monocular depth estimation by 8% in automated driving using a novel Virtual Stereo camera approach.
       - Based on a custom simulated dataset created on CARLA mimicking the limited real life computer vision KITTI dataset.
     logo: /logos/vista.png
-    color: E0CEFD
+    color: A78BFA
     links:
       - name: Poster
         link: https://drive.google.com/file/d/1UIjKiJ9l4q4mjwMtQHGN4FJANVy32QGb/view?usp=sharing
@@ -58,7 +58,7 @@ projects:
       - An online marketplace for local/home-based businesses to sell unique customizable home-made items.
       - Built as a React web app with a MongoDB backend
     logo: /logos/locastic.png
-    color: F0DDCA
+    color: F5E3CD
     links:
       - name: Pitch deck
         link: https://docs.google.com/presentation/d/1OIrKt1fvXNpbVDh56STyhKmQTXTvEwrxGIS-DHvc1Wo
@@ -69,7 +69,7 @@ projects:
       - "Class project for 10-745: Scalability in Machine Learning at Carnegie Mellon."
       - Explores line-art colorization of human faces using Generative Adversarial Networks. Based on a pix2pix model on top of a custom dataset constructed using different lineart generators
     logo: /logos/portrait_line_art.png
-    color: D6C6B1
+    color: D1FAE5
     links:
       - name: Website
         link: https://locastic.herokuapp.com/
@@ -82,7 +82,7 @@ projects:
       - Used CycleGAN based models, in particular StyleTransformer, to convert between factual news titles (non-clickbait) and viral hyperbolic and sensational headlines (clickbait)
       - We incorporate semantic and syntactic features of clickbaity text into the existing model to aid in transforming the style of a text while preserving legibility and meaning.
     logo: /logos/clickbait.png
-    color: FDCFB2
+    color: FB7185
     links:
       - name: Paper
         link: https://drive.google.com/file/d/1or18VZYLPPuy2lCnEvraG_KF9yqzamKA/view?usp=sharing
