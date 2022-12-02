@@ -11,8 +11,8 @@
     <Graphic />
   </div>
   <header class="space-y-1">
-    <h1 class="text-2xl text-lime-900 font-bold">{meta.name}</h1>
-    <h2 class="text-base text-lime-600">{meta.title}</h2>
+    <h1 class="text-2xl text-teal-900 font-bold">{meta.name}</h1>
+    <h2 class="text-base text-teal-600">{meta.title}</h2>
   </header>
   <div class="text-slate-600 space-y-5">
     <Markdown text={meta.about} />
@@ -21,6 +21,6 @@
 
 <style lang="postcss">
   :global(#hero a) {
-    @apply text-lime-600 hover:underline;
+    @apply text-teal-600 hover:underline;
   }
 </style>

@@ -3,14 +3,14 @@
 </script>
 
 <section id="contact" class="mx-auto w-11/12 max-w-xl space-y-5 my-10">
-  <h2 class="text-lg text-lime-700 font-bold">Contact</h2>
+  <h2 class="text-lg text-teal-700 font-bold">Contact</h2>
   <ul class="space-y-2">
     {#each $portfolio.contact as contact}
       <li class="text-gray-400">
         <span class="mr-5">&mdash;</span>
         <span>{contact.name}:</span>
         <a
-          class="text-lime-600 hover:underline transition-all duration-150"
+          class="text-teal-600 hover:underline transition-all duration-150"
           href={contact.link}
           target="__blank"
           rel="noopener"

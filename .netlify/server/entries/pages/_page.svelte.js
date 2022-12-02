@@ -5,11 +5,11 @@ const Contact = create_ssr_component(($$result, $$props, $$bindings, slots) => {
   let $portfolio, $$unsubscribe_portfolio;
   $$unsubscribe_portfolio = subscribe(portfolio, (value) => $portfolio = value);
   $$unsubscribe_portfolio();
-  return `<section id="${"contact"}" class="${"mx-auto w-11/12 max-w-xl space-y-5 my-10"}"><h2 class="${"text-lg text-lime-700 font-bold"}">Contact</h2>
+  return `<section id="${"contact"}" class="${"mx-auto w-11/12 max-w-xl space-y-5 my-10"}"><h2 class="${"text-lg text-teal-700 font-bold"}">Contact</h2>
   <ul class="${"space-y-2"}">${each($portfolio.contact, (contact) => {
     return `<li class="${"text-gray-400"}"><span class="${"mr-5"}">\u2014</span>
         <span>${escape(contact.name)}:</span>
-        <a class="${"text-lime-600 hover:underline transition-all duration-150"}"${add_attribute("href", contact.link, 0)} target="${"__blank"}" rel="${"noopener"}"><span>${escape(contact.alias)}
+        <a class="${"text-teal-600 hover:underline transition-all duration-150"}"${add_attribute("href", contact.link, 0)} target="${"__blank"}" rel="${"noopener"}"><span>${escape(contact.alias)}
           </span></a>
       </li>`;
   })}</ul></section>`;
@@ -32,8 +32,8 @@ const Hero = create_ssr_component(($$result, $$props, $$bindings, slots) => {
   $$result.css.add(css);
   $$unsubscribe_portfolio();
   return `<section id="${"hero"}" class="${"mx-auto max-w-xl w-11/12 py-10 space-y-10"}"><div class="${"pb-10"}">${validate_component(Graphic, "Graphic").$$render($$result, {}, {}, {})}</div>
-  <header class="${"space-y-1"}"><h1 class="${"text-2xl text-lime-900 font-bold"}">${escape(meta.name)}</h1>
-    <h2 class="${"text-base text-lime-600"}">${escape(meta.title)}</h2></header>
+  <header class="${"space-y-1"}"><h1 class="${"text-2xl text-teal-900 font-bold"}">${escape(meta.name)}</h1>
+    <h2 class="${"text-base text-teal-600"}">${escape(meta.title)}</h2></header>
   <div class="${"text-slate-600 space-y-5"}">${validate_component(Markdown, "Markdown").$$render($$result, { text: meta.about }, {}, {})}</div>
 </section>`;
 });

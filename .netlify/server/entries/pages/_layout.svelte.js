@@ -14,10 +14,10 @@ const Navigation = create_ssr_component(($$result, $$props, $$bindings, slots) =
   $$unsubscribe_page();
   return `<header class="${"w-11/12 py-5 mx-auto"}"><nav class="${"flex items-center justify-between"}"><a href="${"/"}" class="${"flex items-center gap-5"}"><img${add_attribute("src", meta.logo.path, 0)}${add_attribute("alt", meta.logo.alt, 0)} class="${"w-8 h-8"}">
       ${$page.url.pathname !== "/" ? `<h1>${escape(meta.name)}</h1>` : ``}</a>
-    <button class="${"md:hidden"}" aria-label="${"Toggle navigation"}"><svg class="${"w-6 h-6 text-lime-600"}" fill="${"none"}" stroke-linecap="${"round"}" stroke-linejoin="${"round"}" stroke-width="${"2"}" viewBox="${"0 0 24 24"}" stroke="${"currentColor"}"><path d="${"M4 6h16M4 12h16M4 18h16"}"${add_attribute("class", "block", 0)}></path><path d="${"M6 18L18 6M6 6l12 12"}"${add_attribute("class", "hidden", 0)}></path></svg></button>
+    <button class="${"md:hidden"}" aria-label="${"Toggle navigation"}"><svg class="${"w-6 h-6 text-teal-600"}" fill="${"none"}" stroke-linecap="${"round"}" stroke-linejoin="${"round"}" stroke-width="${"2"}" viewBox="${"0 0 24 24"}" stroke="${"currentColor"}"><path d="${"M4 6h16M4 12h16M4 18h16"}"${add_attribute("class", "block", 0)}></path><path d="${"M6 18L18 6M6 6l12 12"}"${add_attribute("class", "hidden", 0)}></path></svg></button>
     <ul class="${"gap-5 hidden md:flex"}">${each(navigation, (nav) => {
-    return `<li class="${"font-medium hover:text-lime-600 transition-all duration-150 " + escape(
-      nav.link === $page.url.pathname ? "text-lime-600" : "text-slate-600",
+    return `<li class="${"font-medium hover:text-teal-600 transition-all duration-150 " + escape(
+      nav.link === $page.url.pathname ? "text-teal-600" : "text-slate-600",
       true
     )}"><a${add_attribute("href", nav.link, 0)}${add_attribute("target", nav.external ? "__blank" : "", 0)}${add_attribute("rel", nav.external ? "noopener" : "", 0)}>${escape(nav.name)}</a>
         </li>`;

@@ -26,7 +26,7 @@
       aria-label="Toggle navigation"
     >
       <svg
-        class="w-6 h-6 text-lime-600"
+        class="w-6 h-6 text-teal-600"
         fill="none"
         stroke-linecap="round"
         stroke-linejoin="round"
@@ -41,9 +41,9 @@
     <ul class="gap-5 hidden md:flex">
       {#each navigation as nav}
         <li
-          class="font-medium hover:text-lime-600 transition-all duration-150 {nav.link ===
+          class="font-medium hover:text-teal-600 transition-all duration-150 {nav.link ===
           $page.url.pathname
-            ? 'text-lime-600'
+            ? 'text-teal-600'
             : 'text-slate-600'}"
         >
           <a
@@ -62,7 +62,7 @@
 {#if open}
   <div
     transition:fade={{ duration: 100 }}
-    class="fixed top-0 left-0 w-screen h-screen bg-lime-100 pl-10 py-20"
+    class="fixed top-0 left-0 w-screen h-screen bg-teal-100 pl-10 py-20"
   >
     <button
       class="absolute top-5 right-5"
@@ -70,7 +70,7 @@
       aria-label="Close navigation"
     >
       <svg
-        class="w-6 h-6 text-lime-600"
+        class="w-6 h-6 text-teal-600"
         fill="none"
         stroke-linecap="round"
         stroke-linejoin="round"
@@ -85,9 +85,9 @@
       <ul class="flex flex-col gap-5">
         {#each navigation as nav}
           <li
-            class="text-2xl font-medium hover:text-lime-600 transition-all duration-150 {nav.link ===
+            class="text-2xl font-medium hover:text-teal-600 transition-all duration-150 {nav.link ===
             $page.url.pathname
-              ? 'text-lime-600'
+              ? 'text-teal-600'
               : 'text-slate-600'}"
           >
             <a

@@ -5,7 +5,7 @@
 </script>
 
 <article
-  class="grid grid-cols-6 gap-10 border border-lime-300 rounded-lg p-10"
+  class="grid grid-cols-6 gap-10 border border-teal-300 rounded-lg p-10"
   style="background: #{project.color}"
 >
   <aside class="flex items-center">
@@ -13,9 +13,9 @@
   </aside>
   <div class="col-span-5 space-y-5">
     <header class="space-y-1">
-      <h2 class="text-xl text-lime-900 font-bold">{project.name}</h2>
+      <h2 class="text-xl text-teal-900 font-bold">{project.name}</h2>
       {#if project.subtitle}
-        <h3 class="text-base text-lime-600">{project.subtitle}</h3>
+        <h3 class="text-base text-teal-600">{project.subtitle}</h3>
       {/if}
     </header>
     <div class="space-y-2 text-sm text-gray-700">
@@ -25,7 +25,7 @@
       {#each project.links as link}
         <a
           href={link.link}
-          class="text-xs uppercase inline-flex items-center space-x-1 px-2 py-1 rounded bg-lime-200 text-lime-800 hover:bg-lime-300"
+          class="text-xs uppercase inline-flex items-center space-x-1 px-2 py-1 rounded bg-teal-200 text-teal-800 hover:bg-teal-300"
           target="_blank"
           rel="noopener noreferrer"
         >

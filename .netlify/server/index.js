@@ -3006,7 +3006,7 @@ function set_paths(paths) {
   base = paths.base;
   assets = paths.assets || base;
 }
-const app_template = ({ head, body, assets: assets2, nonce }) => '<!DOCTYPE html>\n\n<html lang="en" class="bg-lime-50">\n  <head>\n    <meta charset="utf-8" />\n    <link rel="icon" href="' + assets2 + '/logos/mehul-light.svg" />\n    <meta name="viewport" content="width=device-width, initial-scale=1" />\n    ' + head + "\n  </head>\n  <body>\n    <div>" + body + "</div>\n  </body>\n</html>\n";
+const app_template = ({ head, body, assets: assets2, nonce }) => '<!DOCTYPE html>\n\n<html lang="en" class="bg-teal-50">\n  <head>\n    <meta charset="utf-8" />\n    <link rel="icon" href="' + assets2 + '/logos/mehul-light.svg" />\n    <meta name="viewport" content="width=device-width, initial-scale=1" />\n    ' + head + "\n  </head>\n  <body>\n    <div>" + body + "</div>\n  </body>\n</html>\n";
 const error_template = ({ status, message }) => '<!DOCTYPE html>\n<html lang="en">\n	<head>\n		<meta charset="utf-8" />\n		<title>' + message + `</title>
 
 		<style>
