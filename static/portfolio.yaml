@@ -6,7 +6,7 @@ meta:
     alt: Mehul's logo
   graphic:
     path: /images/3ds-light.png
-    alt: Isometric design of a the Nintendo 3DS game console
+    alt: Isometric design of the Nintendo 3DS game console
   about:
     - Hello! Welcome to my corner of the internet.
     - I'm Mehul Agarwal, a senior studying Computer Science at Carnegie Mellon University (with a concentration in Machine Learning). I'm also the co-founder of Retcon, a decentralized platform for creating and trading videogame assets.
@@ -63,6 +63,8 @@ projects:
     links:
       - name: Pitch deck
         link: https://docs.google.com/presentation/d/1OIrKt1fvXNpbVDh56STyhKmQTXTvEwrxGIS-DHvc1Wo
+      - name: Website
+        link: https://locastic.herokuapp.com/
 
   - name: Realistic Colorization of Portrait Line Art
     description:
@@ -72,10 +74,8 @@ projects:
     logo: /logos/portrait_line_art.png
     color: D1FAE5
     links:
-      - name: Website
-        link: https://locastic.herokuapp.com/
       - name: Paper
-        link: https://drive.google.com/file/d/1kqvZl795Pjikc-NG1sp4Oqox6KQJIGE7/view?usp=sharing
+        link: https://drive.google.com/file/d/1-c5GJokTIYCTMxmjUpQPJzKbdxMAR5yD/view?usp=sharing
 
   - name: GAN-based Unsupervised Clickbait Style Transfer
     description:
@@ -96,8 +96,8 @@ projects:
     logo: /logos/scotty_coin.png
     color: FFD386
     links:
-      - name: Paper
-        link: https://drive.google.com/file/d/1or18VZYLPPuy2lCnEvraG_KF9yqzamKA/view?usp=sharing
+      - name: Poster
+        link: /links/scotty_poster.pdf
 
   - name: Decentralizing Aadhaar, India's Identity Platform, using Blockchain
     description:
