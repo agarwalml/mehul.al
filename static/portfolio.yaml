@@ -37,7 +37,7 @@ projects:
       - name: Product demo
         link: https://www.youtube.com/watch?v=5AoQvXRnwKE
       - name: Pitch deck
-        link: /links/recton_deck.pdf
+        link: /links/retcon_deck.pdf
 
   - name: VISTA
     subtitle: VIrtual STereo based Augmentation for depth estimation in automated driving (NeurIPS 2022 Autonomous Driving)
