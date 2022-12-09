@@ -2,7 +2,7 @@
   import { portfolio } from "$lib/stores";
 </script>
 
-<section id="contact" class="mx-auto w-11/12 max-w-xl space-y-5 my-10">
+<section id="contact" class="mx-auto font-display w-11/12 max-w-xl space-y-5 my-10">
   <h2 class="text-lg text-teal-700 font-bold">Contact</h2>
   <ul class="space-y-2">
     {#each $portfolio.contact as contact}
