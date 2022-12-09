@@ -1,0 +1,133 @@
+/**
+ * @license
+ *
+ * Font Family: Author
+ * Designed by: Satya Rajpurohit
+ * URL: https://www.fontshare.com/fonts/author
+ * © 2022 Indian Type Foundry
+ *
+ * Font Styles:
+ * Author Variable(Variable font)
+ * Author Variable Italic(Variable font)
+ * Author Extralight
+ * Author Extralight Italic
+ * Author Light
+ * Author Light Italic
+ * Author Regular
+ * Author Italic
+ * Author Medium
+ * Author Medium Italic
+ * Author Semibold
+ * Author Semibold Italic
+ * Author Bold
+ * Author Bold Italic
+ *
+*/
+
+@font-face {
+  font-family: "Author-Extralight";
+  src: url("./Author-Extralight.woff2") format("woff2"),
+    url("./Author-Extralight.woff") format("woff");
+  font-weight: 200;
+  font-display: swap;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Author-ExtralightItalic";
+  src: url("./Author-ExtralightItalic.woff2") format("woff2"),
+    url("./Author-ExtralightItalic.woff") format("woff");
+  font-weight: 200;
+  font-display: swap;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Author-Light";
+  src: url("./Author-Light.woff2") format("woff2"),
+    url("./Author-Light.woff") format("woff");
+  font-weight: 300;
+  font-display: swap;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Author-LightItalic";
+  src: url("./Author-LightItalic.woff2") format("woff2"),
+    url("./Author-LightItalic.woff") format("woff");
+  font-weight: 300;
+  font-display: swap;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Author-Regular";
+  src: url("./Author-Regular.woff2") format("woff2"),
+    url("./Author-Regular.woff") format("woff");
+  font-weight: 400;
+  font-display: swap;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Author-Italic";
+  src: url("./Author-Italic.woff2") format("woff2"),
+    url("./Author-Italic.woff") format("woff");
+  font-weight: 400;
+  font-display: swap;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Author-Medium";
+  src: url("./Author-Medium.woff2") format("woff2"),
+    url("./Author-Medium.woff") format("woff");
+  font-weight: 500;
+  font-display: swap;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Author-MediumItalic";
+  src: url("./Author-MediumItalic.woff2") format("woff2"),
+    url("./Author-MediumItalic.woff") format("woff");
+  font-weight: 500;
+  font-display: swap;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Author-Semibold";
+  src: url("./Author-Semibold.woff2") format("woff2"),
+    url("./Author-Semibold.woff") format("woff");
+  font-weight: 600;
+  font-display: swap;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Author-SemiboldItalic";
+  src: url("./Author-SemiboldItalic.woff2") format("woff2"),
+    url("./Author-SemiboldItalic.woff") format("woff");
+  font-weight: 600;
+  font-display: swap;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Author-Bold";
+  src: url("./Author-Bold.woff2") format("woff2"),
+    url("./Author-Bold.woff") format("woff");
+  font-weight: 700;
+  font-display: swap;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Author-BoldItalic";
+  src: url("./Author-BoldItalic.woff2") format("woff2"),
+    url("./Author-BoldItalic.woff") format("woff");
+  font-weight: 700;
+  font-display: swap;
+  font-style: italic;
+}

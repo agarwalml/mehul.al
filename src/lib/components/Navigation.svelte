@@ -12,7 +12,7 @@
   }
 </script>
 
-<header class="w-11/12 py-5 mx-auto">
+<header class="w-11/12 py-5 mx-auto text-lg font-display text-slate-600">
   <nav class="flex items-center justify-between">
     <a href="/" class="flex items-center gap-5">
       <img src={meta.logo.path} alt={meta.logo.alt} class="w-8 h-8" />

@@ -11,6 +11,10 @@ module.exports = {
         pastel5: "#eac4d5",
       },
     },
+    fontFamily: {
+      sans: ["Inter", "ui-sans-serif", "system-ui", "sans-serif"],
+      display: ["Author-Medium", "ui-sans-serif", "system-ui", "sans-serif"],
+    },
   },
   plugins: [],
 };

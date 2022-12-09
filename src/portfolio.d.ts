@@ -27,7 +27,7 @@ interface Project {
   description: string[];
   logo: string;
   links: Link[];
-  color: string;
+  color: [number, number, number];
 }
 
 interface Experience extends Link {

@@ -1,6 +1,6 @@
 meta:
   name: Mehul Agarwal
-  title: Researcher · Entrepreneur
+  title: Researcher · Entrepreneur · Overthinker
   logo:
     path: /logos/mehul-light.svg
     alt: Mehul's logo
@@ -29,10 +29,10 @@ projects:
   - name: Retcon
     subtitle: Decentralized ecosystem for creating & trading in-game assets using ML
     description:
-      - A secondary marketplace to create and buy/trade/sell video game assets securely. 
+      - A secondary marketplace to create and buy/trade/sell video game assets securely.
       - It employs generative ML diffusion models to enable creation and content moderation of 3-D assets that can be deployed in game
     logo: /logos/retcon.svg
-    color: FEF3C7
+    color: [48, 96, 89]
     links:
       - name: Product demo
         link: https://www.youtube.com/watch?v=5AoQvXRnwKE
@@ -46,7 +46,7 @@ projects:
       - Improves the State-of-the-Art monocular depth estimation by 8% in automated driving using a novel Virtual Stereo camera approach.
       - Based on a custom simulated dataset created on CARLA mimicking the limited real life computer vision KITTI dataset.
     logo: /logos/vista.png
-    color: C4C9FF
+    color: [235, 0, 91]
     links:
       - name: Poster
         link: /links/vista_poster.pdf
@@ -59,7 +59,7 @@ projects:
       - An online marketplace for local/home-based businesses to sell unique customizable home-made items.
       - Built as a React web app with a MongoDB backend
     logo: /logos/locastic.png
-    color: F5E3CD
+    color: [33, 67, 88]
     links:
       - name: Pitch deck
         link: /links/locastic_deck.pdf
@@ -72,7 +72,7 @@ projects:
       - "_Partner: Julia Shieuh, Georgia Tech_"
       - Explores line-art colorization of human faces using Generative Adversarial Networks. Based on a pix2pix model on top of a custom dataset constructed using different lineart generators
     logo: /logos/portrait_line_art.png
-    color: D1FAE5
+    color: [149, 80, 90]
     links:
       - name: Paper
         link: /links/portrait_lineart_paper.pdf
@@ -84,7 +84,7 @@ projects:
       - Used CycleGAN based models, in particular StyleTransformer, to convert between factual news titles (non-clickbait) and viral hyperbolic and sensational headlines (clickbait)
       - We incorporate semantic and syntactic features of clickbaity text into the existing model to aid in transforming the style of a text while preserving legibility and meaning.
     logo: /logos/clickbait.png
-    color: 7DD3FC
+    color: [199, 95, 74]
     links:
       - name: Paper
         link: /links/clickbait_paper.pdf
@@ -95,7 +95,7 @@ projects:
       - "_Advisors: Ramayya Krishnan (Dean of Heinz College), Wang Hai, Carnegie Mellon University_"
       - It envisions "Cap and Trade" using a distributed ledger as a universal strategy to share resources in different domains among users fairly and optimally.
     logo: /logos/scotty_coin.png
-    color: FFD386
+    color: [38, 0, 76]
     links:
       - name: Poster
         link: /links/scotty_poster.pdf
@@ -103,10 +103,10 @@ projects:
   - name: Decentralizing Aadhaar, India's Identity Platform
     subtitle: Independent Research on introducing a blockchain layer to Aadhaar Authentication
     description:
-      - Aadhaar provides a unique biometric identity to 1.2 billion residents of India. 
+      - Aadhaar provides a unique biometric identity to 1.2 billion residents of India.
       - This proposal aims to increase the integrity and privacy of Aadhaar by providing an immutable decentralized layer on top of the current architecture.
     logo: /logos/aadhaar.png
-    color: E96B6A
+    color: [0, 74, 66]
     links:
       - name: Abstract
         link: /links/blockchain_abstract.pdf
@@ -119,7 +119,7 @@ projects:
       - Research on the development of Natural Language Processing (NLP) applications in 18 Indian Vernacular languages
       - The internal paper is being utilized to construct an Access Point Repository for Indian NLP applications for various use cases.
     logo: /logos/nlp_robot.png
-    color: 68ACD4
+    color: [202, 56, 62]
     links:
       - name: Abstract
         link: /links/NLP_abstract.pdf
@@ -130,12 +130,10 @@ projects:
       - Application built and pitched as part of a program conducted at Indian Institute of Technology, Delhi
       - The app helps in maintaining personal and professional targets and finding time for new and pre-existing goals customized to the user's schedule.
     logo: /logos/goalkick.png
-    color: 6CE5B2
+    color: [155, 70, 66]
     links:
       - name: Pitch Deck
         link: /links/goalkick_deck.pdf
-
-
 
 experience:
   - name: Blue River
@@ -183,7 +181,7 @@ experience:
     responsibilities:
       - Teaching CMU undergraduate students app-development in Android
       - Creating course material to introduce students to Firebase, building a chat service, using SDKs such as Google Maps, etc.
-  
+
   - name: Center for Advanced Research in Imaging, Neuroscience & Genomics (CARING)
     link: https://in.linkedin.com/showcase/caring-mi
     dates: Summer 2020
@@ -218,7 +216,6 @@ experience:
     responsibilities:
       - Organizing inter-school IT Symposium ‘ProjectBeta 2.0’ in August 2018
       - Heading Design & Start-up Pitch Departments and leading teams in inter-school IT events in Graphic Designing, Webdev & Programming
-
 
 contact:
   - name: Email

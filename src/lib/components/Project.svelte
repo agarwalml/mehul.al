@@ -2,20 +2,37 @@
   import Markdown from "./Markdown.svelte";
 
   export let project: Project;
+
+  const { color: hsl } = project;
+  const [h, s, l] = hsl;
+  const color = {
+    bg: `hsl(${h}, ${s}%, ${l}%)`,
+    title: `hsl(${h}, ${s}%, 15%)`,
+    subtitle: `hsl(${h}, ${s}%, 20%)`,
+    border: `hsl(${h}, ${s}%, ${l - 30}%)`,
+  };
 </script>
 
 <article
-  class="grid grid-cols-6 gap-10 border border-teal-300 rounded-lg p-10"
-  style="background: #{project.color}"
+  class="flex flex-col items-center sm:grid sm:grid-cols-8 gap-10 border rounded-lg p-10"
+  style="background: {color.bg}; border-color: {color.border}"
 >
-  <aside class="flex items-center">
-    <img class=" max-w-full" src={project.logo} alt={project.name} />
+  <aside class="sm:col-span-2 flex items-center justify-center">
+    <img
+      class="h-36 sm:h-auto sm:max-w-full"
+      src={project.logo}
+      alt={project.name}
+    />
   </aside>
-  <div class="col-span-5 space-y-5">
-    <header class="space-y-1">
-      <h2 class="text-xl text-teal-900 font-bold">{project.name}</h2>
+  <div class="sm:col-span-6 space-y-5">
+    <header class="font-display space-y-1">
+      <h2 class="text-2xl text-teal-900 font-bold" style="color: {color.title}">
+        {project.name}
+      </h2>
       {#if project.subtitle}
-        <h3 class="text-base text-teal-600">{project.subtitle}</h3>
+        <h3 class="text-lg text-teal-600" style="color: {color.subtitle}">
+          {project.subtitle}
+        </h3>
       {/if}
     </header>
     <div class="space-y-2 text-sm text-gray-700">
@@ -25,9 +42,10 @@
       {#each project.links as link}
         <a
           href={link.link}
-          class="text-xs uppercase inline-flex items-center space-x-1 px-2 py-1 rounded bg-teal-200 text-teal-800 hover:bg-teal-300"
+          class="text-xs uppercase inline-flex items-center space-x-1 px-2 py-1 rounded filter hover:brightness-110"
           target="_blank"
           rel="noopener noreferrer"
+          style="background: {color.subtitle}; color: {color.bg}"
         >
           <span>{link.name}</span>
           <svg
