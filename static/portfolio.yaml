@@ -11,7 +11,7 @@ meta:
     - Hello! Welcome to my corner of the internet.
     - I'm Mehul Agarwal, a senior studying Computer Science at Carnegie Mellon University (with a concentration in Machine Learning). I'm also the co-founder of Retcon, a decentralized platform for creating and trading videogame assets.
     - My research interests fall under the umbrellas of Computer Vision, NLP and blockchain. When I'm not stumped with homework, I try to find the nerdiest ways to prove that I'm cool. Some of my exploits include co-founding the Facebook group [Zoom Memes for Self Quaranteens](https://www.facebook.com/groups/zoommemes/) during the pandemic, which now has 950,000+ members.
-
+    - You're probably here to checkout my:
 navigation:
   - name: Home
     link: /
@@ -46,7 +46,7 @@ projects:
       - Improves the State-of-the-Art monocular depth estimation by 8% in automated driving using a novel Virtual Stereo camera approach.
       - Based on a custom simulated dataset created on CARLA mimicking the limited real life computer vision KITTI dataset.
     logo: /logos/vista.png
-    color: [235, 0, 91]
+    color: [235, 100, 88]
     links:
       - name: Poster
         link: /links/vista_poster.pdf
@@ -95,7 +95,7 @@ projects:
       - "_Advisors: Ramayya Krishnan (Dean of Heinz College), Wang Hai, Carnegie Mellon University_"
       - It envisions "Cap and Trade" using a distributed ledger as a universal strategy to share resources in different domains among users fairly and optimally.
     logo: /logos/scotty_coin.png
-    color: [38, 0, 76]
+    color: [38, 100, 76]
     links:
       - name: Poster
         link: /links/scotty_poster.pdf
