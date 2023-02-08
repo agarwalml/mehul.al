@@ -67,8 +67,6 @@ projects:
     links:
       - name: Pitch deck
         link: /links/locastic_deck.pdf
-      - name: Website
-        link: https://locastic.herokuapp.com/
 
   - name: Realistic Colorization of Portrait Line Art
     subtitle: 10-745 Scalability in Machine Learning, Carnegie Mellon University
