@@ -229,9 +229,12 @@ contact:
   - name: Instagram
     link: https://www.instagram.com/mehul.al
     alias: "@mehul.al"
-  - name: Facebook
-    link: https://www.facebook.com/agarwalml
-    alias: "@agarwalml"
   - name: GitHub
     link: https://github.com/agarwalml
+    alias: "@agarwalml"
+  - name: Medium
+    link: https://medium.com/@ipofmehul
+    alias: "@ipofmehul"
+  - name: Facebook
+    link: https://www.facebook.com/agarwalml
     alias: "@agarwalml"
