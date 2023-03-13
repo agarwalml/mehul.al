@@ -34,6 +34,8 @@ projects:
     logo: /logos/retcon.svg
     color: [48, 96, 89]
     links:
+      - name: Website
+        link: https://ret-con.tech
       - name: Product demo
         link: https://www.youtube.com/watch?v=5AoQvXRnwKE
       - name: Pitch deck
@@ -51,7 +53,9 @@ projects:
       - name: Poster
         link: /links/vista_poster.pdf
       - name: Research paper
-        link: /links/vista_paper.pdf
+        link: https://ml4ad.github.io/files/papers2022/VISTA:%20VIrtual%20STereo%20based%20Augmentation%20for%20Depth%20Estimation%20in%20Automated%20Driving.pdf
+      - name: Video
+        link: https://www.youtube.com/watch?v=90_i2HWyfuo
 
   - name: Locastic
     subtitle: Online Platform for locally-sourced unique artisanal products
@@ -63,8 +67,6 @@ projects:
     links:
       - name: Pitch deck
         link: /links/locastic_deck.pdf
-      - name: Website
-        link: https://locastic.herokuapp.com/
 
   - name: Realistic Colorization of Portrait Line Art
     subtitle: 10-745 Scalability in Machine Learning, Carnegie Mellon University
@@ -227,9 +229,12 @@ contact:
   - name: Instagram
     link: https://www.instagram.com/mehul.al
     alias: "@mehul.al"
-  - name: Facebook
-    link: https://www.facebook.com/agarwalml
-    alias: "@agarwalml"
   - name: GitHub
     link: https://github.com/agarwalml
+    alias: "@agarwalml"
+  - name: Medium
+    link: https://medium.com/@ipofmehul
+    alias: "@ipofmehul"
+  - name: Facebook
+    link: https://www.facebook.com/agarwalml
     alias: "@agarwalml"
