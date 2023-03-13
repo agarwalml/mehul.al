@@ -9,8 +9,8 @@ meta:
     alt: Isometric design of the Nintendo Switch game console
   about:
     - Hello! Welcome to my corner of the internet.
-    - I'm Mehul Agarwal, a senior studying Computer Science at Carnegie Mellon University (with a concentration in Machine Learning). I'm also the co-founder of [Retcon](https://ret-con.tech/), a decentralized platform for creating and trading videogame assets using Generative Machine Learning.
-    - My research interests fall under the umbrellas of Computer Vision, NLP and blockchain. When I'm not stumped with homework, I try to find the nerdiest ways to prove that I'm cool. Some of my exploits include co-founding the Facebook group [Zoom Memes for Self Quaranteens](https://www.facebook.com/groups/zoommemes/) during the pandemic, which now has 950,000+ members.
+    - I'm Mehul Agarwal, a senior studying Computer Science at Carnegie Mellon University (with a concentration in Machine Learning). I'm also the co-founder of [Retcon](https://ret-con.tech/), a platform for creating and trading videogame assets using Generative Machine Learning.
+    - My research interests fall under the umbrellas of Multimodal ML, Computer Vision and blockchain. When I'm not stumped with homework, I try my hand at standup comedy. Some of my exploits include co-founding the Facebook group [Zoom Memes for Self Quaranteens](https://www.facebook.com/groups/zoommemes/) during the pandemic, which now has 950,000+ members.
     - You're probably here to checkout my
 navigation:
   - name: Home
@@ -27,7 +27,7 @@ navigation:
 
 projects:
   - name: Retcon
-    subtitle: Decentralized ecosystem for creating & trading in-game assets using Generative ML
+    subtitle: Ecosystem for creating & trading in-game assets using Generative ML
     description:
       - A secondary marketplace to create and buy/trade/sell video game assets securely.
       - It employs generative ML diffusion models to enable creation and content moderation of 3-D assets that can be deployed in game
