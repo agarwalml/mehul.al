@@ -1,6 +1,6 @@
 meta:
   name: Mehul Agarwal
-  title: Researcher · Entrepreneur · Overthinker
+  title: Researcher · Entrepreneur · Procrastinator
   logo:
     path: /logos/mehul-light.svg
     alt: Mehul's logo
@@ -9,8 +9,8 @@ meta:
     alt: Isometric design of the Nintendo Switch game console
   about:
     - Hello! Welcome to my corner of the internet.
-    - I'm Mehul Agarwal, a Masters student studying Machine Learning at Carnegie Mellon University (I also did my Bachelors in Computer Science at CMU). I'm also the co-founder of [Retcon](https://ret-con.tech/), a platform for creating and trading videogame assets using Generative Machine Learning.
-    - My research interests fall under the umbrellas of Multimodal ML, Computer Vision and Generative AI. When I'm not stumped with homework, I try my hand at standup comedy, check out my standup special [College Crushes, Virtual Vibes & Subtle Signs](https://www.youtube.com/watch?v=4qq4Yg5avxo&pp=ygUNbWVodWwgYWdhcndhbA%3D%3D). Some of my exploits include co-founding the Facebook group [Zoom Memes for Self Quaranteens](https://www.facebook.com/groups/zoommemes/) during the pandemic, which now has 950,000+ members.
+    - I'm Mehul Agarwal, currently the only Innovation Associate at [SAI Group](https://saigroup.ai/) where my work lies in the intersection of Machine Learning and Business Development. I recently completed my Masters in Machine Learning at Carnegie Mellon University in May 2024 (I also did my Bachelors in Computer Science at CMU). Previously, I co-founded [Retcon](https://ret-con.tech/), a GenAI platform for creating 3D videogame assets.
+    - My research interests fall under the umbrellas of Multimodal ML, Computer Vision and Generative AI. When I'm not stumped with work, I try my hand at standup comedy! You can check out my standup special [College Crushes, Virtual Vibes & Subtle Signs](https://www.youtube.com/watch?v=4qq4Yg5avxo&pp=ygUNbWVodWwgYWdhcndhbA%3D%3D). Some of my previous exploits include co-founding the Facebook group [Zoom Memes for Self Quaranteens](https://www.facebook.com/groups/zoommemes/) during the pandemic, which now has 950,000+ members.
     - You're probably here to checkout my
 navigation:
   - name: Home
@@ -22,7 +22,7 @@ navigation:
   - name: Contact
     link: /#contact
   - name: Resume
-    link: https://drive.google.com/file/d/1azB-s6mqosO-k5x1-fNWtHf3TfYv8X7R/view
+    link: https://drive.google.com/file/d/1WMuHy1hhcpXJ55lDQivY78IHn8sXUvMq/view
     external: true
 
 projects:
@@ -138,6 +138,24 @@ projects:
         link: /links/goalkick_deck.pdf
 
 experience:
+  - name: SAI Group
+    link: https://saigroup.ai/
+    dates: Current
+    role: Innovation Associate (ML & Business)
+    location: Los Altos, CA
+    responsibilities:
+      - Fusion of ML Engineering & Business Development for SAI Group's portfolio companies
+      - Currently building the future of work (and other buzzwords) at [JazzX](https://jazzx.ai/)
+
+  - name: "CMU: 11-777 Multimodal Machine Learning"
+    link: https://cmu-mmml.github.io/spring2024/
+    dates: Spring 2024, Fall 2023
+    role: Lead Teaching Assistant
+    location: Pittsburgh, PA
+    responsibilities:
+      - Taught lectures and guided teams of masters & PhD students to make conference-ready research papers on multimodal representation learning, modality alignment, translation, generation, fusion and co-learning.
+      - Also previous Head TA of 17-356 Software Engineering for Startups & 15-213 Introduction to Computer Systems
+
   - name: Blue River
     link: https://bluerivertechnology.com/
     dates: Summer 2022
@@ -165,16 +183,7 @@ experience:
     responsibilities:
       - Exploring Natural Language Processing (NLP) & Computer Vision research problems of prosody transfer, voice cloning, lip syncing to produce a Generative AI voice dubbing solution
       - Researching State-of-the-Art Unsupervised Speech Decomposition & Generation algorithms like SpeechSplit and identifying applications of disentangling and transforming multiple speakers' content, timbre, rhythm and pitch
-
-  - name: "15-213/18-213: Introduction to Computer Systems"
-    link: https://www.cs.cmu.edu/~213/
-    dates: Spring 2021, Fall 2021, Spring 2022
-    role: Lead Teaching Assistant
-    location: Pittsburgh, PA
-    responsibilities:
-      - Creating exams, recitations and written assignments covering topics in Computer Systems
-      - Teaching concepts such as machine-level code, optimizing compilers, computer arithmetic and memory organization & management, networking, and concurrent computation.
-
+      
   - name: Introduction to Android Development (StuCo)
     link: https://www.coursicle.com/cmu/courses/STU/98291/
     dates: Fall 2021
@@ -210,19 +219,19 @@ experience:
       - Understanding technology behind Aadhaar – India’s Biometric Identity for 1.2 billion citizens
       - Developing modules for the Aadhaar API and integrating Aadhaar Authentication into local businesses
 
-  - name: ProjectBeta, IT Club of Sanskriti School
+  - name: ProjectBeta, Tech Club of Sanskriti School
     link: https://projectbeta.info/
     dates: 2016 - 2019
     role: Vice President
     location: New Delhi, India
     responsibilities:
-      - Organizing inter-school IT Symposium ‘ProjectBeta 2.0’ in August 2018
+      - Organizing inter-school tech symposium ‘ProjectBeta 2.0’ in August 2018
       - Heading Design & Start-up Pitch Departments and leading teams in inter-school IT events in Graphic Designing, Webdev & Programming
 
 contact:
   - name: Email
-    link: "mailto:mehula@andrew.cmu.edu"
-    alias: mehula@andrew.cmu.edu
+    link: "mailto:ipofmehul@gmail.com"
+    alias: ipofmehul@gmail.com
   - name: Behance
     link: https://www.behance.net/agarwalml
     alias: "@agarwalml"
