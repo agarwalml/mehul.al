@@ -1,6 +1,6 @@
 meta:
   name: Mehul Agarwal
-  title: Researcher · Entrepreneur · Procrastinator
+  title: Entrepreneur · Researcher · Procrastinator
   logo:
     path: /logos/mehul-light.svg
     alt: Mehul's logo
@@ -9,8 +9,8 @@ meta:
     alt: Isometric design of the Nintendo Switch game console
   about:
     - Hello! Welcome to my corner of the internet.
-    - I'm Mehul Agarwal, currently the only Innovation Associate at [SAI Group](https://saigroup.ai/) working at the intersection of Machine Learning and Business Development. I recently completed my Masters in Machine Learning at Carnegie Mellon University (I also did my Bachelors in Computer Science here). Previously, I co-founded [Retcon](https://ret-con.tech/), a GenAI platform for creating 3D videogame assets.
-    - My research interests fall under the umbrellas of Multimodal ML, Computer Vision and Generative AI. When I'm not stumped with work, I try my hand at standup comedy! You can check out my standup special [College Crushes, Virtual Vibes & Subtle Signs](https://www.youtube.com/watch?v=4qq4Yg5avxo&pp=ygUNbWVodWwgYWdhcndhbA%3D%3D). During the pandemic, I had co-founded the Facebook group [Zoom Memes for Self Quaranteens](https://www.facebook.com/groups/zoommemes/), which now has 950,000+ members.
+    - I'm Mehul Agarwal, currently building [Koyal](https://koyal.ai/), a GenAI Audio-to-Video storytelling platform. I was previously at the [SAI Group](https://saigroup.ai/) working at the intersection of Machine Learning and Business Development. I recently completed my Masters in Machine Learning at Carnegie Mellon University (I also did my Bachelors in Computer Science here). Previously, I co-founded [Retcon](https://ret-con.tech/), a GenAI platform for creating 3D videogame assets.
+    - My research interests fall under the umbrellas of Multimodal ML, Computer Vision and Generative AI. When I'm not stumped with work, I try my hand at standup comedy! You can check out my standup specials on my [YouTube](https://www.youtube.com/@agarwalml). During the pandemic, I had co-founded the Facebook group [Zoom Memes for Self Quaranteens](https://www.facebook.com/groups/zoommemes/), which now has 950,000+ members.
     - You're probably here to checkout my
 navigation:
   - name: Home
