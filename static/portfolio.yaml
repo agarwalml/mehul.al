@@ -27,16 +27,28 @@ navigation:
     external: true
 
 projects:
+  - name: Koyal
+    subtitle: 
+    description:
+      -  Audio to Video Filmmaking Platform that allows you to seamlessly convert audio into personalized, visually compelling stories.
+      - It builds directly upon our published research at the AI conference NeurIPS in December. We’ve been covered in the international press for our patented secure personalization protocol CHARCHA, the genAI captcha.
+    logo: /logos/koyal_red.png
+    color: [0, 74, 66]
+    links:
+      - name: Website
+        link: https://koyal.ai
+      - name: Announcement
+        link: https://x.com/meh_agarwal/status/1965866965425348687
+      - name: Product demo
+        link: https://x.com/meh_agarwal/status/1965137062119752099
   - name: Retcon
-    subtitle: Ecosystem for creating & trading in-game assets using Generative ML
+    subtitle: Ecosystem for creating & trading in-game assets using GenAI
     description:
       - A secondary marketplace to create and buy/trade/sell video game assets securely.
-      - It employs generative ML diffusion models to enable creation and content moderation of 3-D assets that can be deployed in game
+      - It employed LLMs, diffusion and other GenAI models to enable creation and content moderation of 3-D assets that can be deployed in game
     logo: /logos/retcon.svg
     color: [48, 96, 89]
     links:
-      - name: Website
-        link: https://ret-con.tech
       - name: Product demo
         link: https://www.youtube.com/watch?v=5AoQvXRnwKE
       - name: Pitch deck
@@ -141,12 +153,12 @@ projects:
 experience:
   - name: SAI Group
     link: https://saigroup.ai/
-    dates: Current
+    dates: Summer 2024 to Spring 2025
     role: Innovation Associate (ML & Business)
     location: Los Altos, CA
     responsibilities:
       - Fusion of ML Engineering & Business Development for SAI Group's portfolio companies
-      - Currently building the future of work (and other buzzwords) at [JazzX](https://jazzx.ai/)
+      - Built the First AI Platform for End-to-End Mortgage at [JazzX](https://jazzx.ai/)
 
   - name: "CMU: 11-777 Multimodal Machine Learning"
     link: https://cmu-mmml.github.io/spring2024/
@@ -233,18 +245,21 @@ contact:
   - name: Email
     link: "mailto:ipofmehul@gmail.com"
     alias: ipofmehul@gmail.com
-  - name: Behance
-    link: https://www.behance.net/agarwalml
-    alias: "@agarwalml"
+  - name: Twitter
+    link: https://x.com/meh_agarwal
+    alias: "@meh_agarwal"
+  - name: LinkedIn
+    link: https://www.linkedin.com/in/mehul-agarwal-a274a0287/
+    alias: "Mehul Agarwal"
   - name: Instagram
     link: https://www.instagram.com/mehul.al
     alias: "@mehul.al"
   - name: GitHub
     link: https://github.com/agarwalml
     alias: "@agarwalml"
+  - name: Behance
+    link: https://www.behance.net/agarwalml
+    alias: "@agarwalml"
   - name: Medium
     link: https://medium.com/@ipofmehul
     alias: "@ipofmehul"
-  - name: Facebook
-    link: https://www.facebook.com/agarwalml
-    alias: "@agarwalml"
